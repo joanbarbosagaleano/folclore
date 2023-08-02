@@ -391,9 +391,10 @@ header{
     
         padding: 10px;
         width: 100%;
+        height: auto;
         margin: 20px; /*separar los textos*/
         display: flex;
-        flex-wrap: wrap;
+       
         margin-top: 25px;
         
     }
@@ -402,9 +403,10 @@ header{
         padding: 10px;
         width: 90%;
         margin: 2px; /*separar los textos*/
-        display: inline-block;
+        display: block;
         margin-top:10px;
         align-content: center;
+        
     }
     .columna-copla{
         color: #0a0901;
@@ -426,6 +428,19 @@ header{
         border-radius: 3px;
         
     }
+    .content{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+    }
+    .content:hover{
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+
 }
 @media(max-width:840px){
     .parrafo{
@@ -461,6 +476,7 @@ header{
 
         
     }
+   
     
 }
 @media(max-width:640px){
