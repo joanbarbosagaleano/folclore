@@ -539,4 +539,32 @@ header{
         width: 100%;
         font-size:x-large;
     }
+    .columna-copla{
+        color: #0a0901;
+        padding: 10px;
+        width: 90%;
+        margin: 10px; /*separar los textos*/
+        display: inline-block;
+        text-align: center;
+        font-size: 35px;
+        line-height: 1.0em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    }
+    .titulo2{
+        color: antiquewhite;
+        justify-content: center;
+        align-items: center;
+        margin-top: -15px;
+        height: 40px;
+        display: block;
+        text-align: center;
+    }
+    .fondo{
+        --opacidad-negro:0.6;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), 
+        rgba(0, 0, 0, var(--opacidad-negro))),url('iglesia.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+    }
 }
